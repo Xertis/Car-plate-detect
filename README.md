@@ -3,5 +3,5 @@ A system for recognizing license plates of cars
 
 ## 💻 Import
 ```Python
-import CarPlate
+from CarPlate import CarPlate
 ```
