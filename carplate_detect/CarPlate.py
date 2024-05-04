@@ -23,7 +23,6 @@ class CarPlate:
 
         return recognized_text
 
-
     def CarPlate_detect(self, path: str) -> Image.Image:
         image = Image.open(path)
         model = YOLO(self.modelPath)
